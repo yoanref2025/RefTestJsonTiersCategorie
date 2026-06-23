@@ -1,58 +1,184 @@
 {
   "tiers_categorie": [
     {
-      "uid": "e893df67-a38e-4eb8-a0e1-0b8f53692273",
+      "code": "ABO",
       "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-	  "priorite":0,
+      "priorite": 0,
       "nom": "Abonné",
-	  "si_abonne":true
-    },
-	{
-      "uid": "b694a335-e7b2-448a-baa1-78a2debf257d",
-      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-	  "priorite":2,
-      "nom": "Volant",
-	  "si_abonne":false,
-	  "si_defaut_creation":false
-    },
-	{
-      "uid": "4d018b3d-de4d-4f20-b982-9eecaa14ce1d",
-      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-	  "priorite":2,
-      "nom": "Passager",
-	  "si_abonne":false,
-	  "si_defaut_creation":true
-    },
-	{
-      "uid": "14565e7c-fb5c-463d-8601-965d7f4aa163",
-      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-	  "priorite":0,
-      "nom": "Titulaire Abonné",
-	  "si_abonne":true,
-	  "si_defaut_creation":false
-    },
-	{
-      "uid": "bd93b12b-99e8-4a3a-a572-6fbd3e48e0da",
-      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
-	  "priorite":1,
-      "nom": "Titulaire",
-	  "si_abonne":false,
-	  "si_defaut_creation":false
+      "si_facture_abo": true,
+      "si_defaut_creation": false,
+      "si_active": true
     },
     {
-      "uid": "152c0370-95a7-4a4e-b5b6-8e2a57f559d1",
-      "uid_r": "01d268d8-fed9-41dd-9373-19d06059a289",
-	  "priorite":0,
-      "nom": "Abonné",
-	  "si_abonne":true
+      "code": "ABOR",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Abonné Régulier",
+      "si_facture_abo": true,
+      "si_defaut_creation": false,
+      "si_active": true
     },
-	{
-      "uid": "1dcc140a-cd69-43c6-859a-d11f0644087e",
-      "uid_r": "01d268d8-fed9-41dd-9373-19d06059a289",
-	  "priorite":1,
+    {
+      "code": "ASSO",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Association",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "COMM",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Commerçant",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "DEMO",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Démonstrateur",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "ENT",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Entreprise",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "EXPO",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Exposant",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "FOR",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Forain",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "OCC",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Occasionnel",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "PART",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Particulier",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "PASS",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 2,
+      "nom": "Passager",
+      "si_facture_abo": false,
+      "si_defaut_creation": true,
+      "si_active": true
+    },
+    {
+      "code": "PRO",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Professionnel",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "TIT",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 1,
+      "nom": "Titulaire",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "TITA",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Titulaire Abonné",
+      "si_facture_abo": true,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "TITR",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Titulaire Régulier",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "USAG",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Usager",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "VOL",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 2,
       "nom": "Volant",
-	  "si_abonne":false,
-	  "si_defaut_creation":true
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "VOLA",
+      "uid_r": "f8433ff4-bb03-4a22-a5b3-b49b8a40e00f",
+      "priorite": 0,
+      "nom": "Volant Régulier",
+      "si_facture_abo": false,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "ABO",
+      "uid_r": "01d268d8-fed9-41dd-9373-19d06059a289",
+      "priorite": 0,
+      "nom": "Abonné",
+      "si_facture_abo": true,
+      "si_defaut_creation": false,
+      "si_active": true
+    },
+    {
+      "code": "VOL",
+      "uid_r": "01d268d8-fed9-41dd-9373-19d06059a289",
+      "priorite": 1,
+      "nom": "Volant",
+      "si_facture_abo": false,
+      "si_defaut_creation": true,
+      "si_active": true
     }
   ]
 }
